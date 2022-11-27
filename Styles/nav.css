@@ -50,19 +50,19 @@
     font-size: 26px;
 }
 
-a{
+.navBut{
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
     color: white;
     text-decoration: none
 }
 
-a:visited {
+.navBut:visited {
     color: white;
     text-decoration: none
   }
 
-a:hover {
+.navBut:hover {
     color: grey;
     text-decoration: none
   }
@@ -141,3 +141,20 @@ a:hover {
 .fa-sharp.fa-solid.fa-magnifying-glass.fa-2x:hover{
     color:rgb(207, 203, 203);
 }
+
+.topBut{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    color: white;
+    text-decoration: none
+}
+
+.topBut:visited {
+    color: white;
+    text-decoration: none
+  }
+
+.topBut:hover {
+    color: black;
+    text-decoration: none
+  }

@@ -7,6 +7,12 @@ body {
     font-size: 20px;
 }
 
+a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    color: white;
+    text-decoration: none
+}
 
 /* MAIN SECTION --------------------------------- */
 .main-wrapper {
@@ -49,18 +55,20 @@ body {
 .main-wrapper>.left-column >.bottom{
     display: flex;
     justify-content: left;
-    margin-top: 25px;
     align-items: center;
+    height: 95px;
+    margin-top: 25px;
 }
 
 .main-wrapper>.left-column >.bottom >.left-button{
-    vertical-align: middle;
-    background-color: #4BCE79;
-    color: black;
-    border-radius: 5px;
+    display: flex;
+    justify-content: left;
     align-items: center;
+    background-color: #4BCE79;
+    border-radius: 5px;
     padding: 0px 35px;
     margin-right: 25px;
+    height: 95px;
 }
 
 .main-wrapper>.left-column >.bottom >.left-button:hover{
@@ -68,32 +76,25 @@ body {
     color: white;
 }
 
-.main-wrapper>.left-column >.bottom >.left-button p{
-    font-family: 'Lato', sans-serif;
-    line-height: 20px;  /* not sure..............How do I make the button a big less tall............................... */
-    vertical-align: middle;
-}
-
-.main-wrapper>.left-column >.bottom >.right-button p{
-    font-family: 'Lato', sans-serif;
-    line-height: 20px;  /* not sure............................................. */
-    vertical-align: middle;
+.main-wrapper>.left-column >.bottom >.left-button a{
+    color: black;
 }
 
 
 .main-wrapper>.left-column >.bottom >.right-button{
-    display: inline-block;
-    vertical-align: middle;
+    display: flex;
+    justify-content: left;
+    align-items: center;
     background-color: #111111;
     color: white;
     border-radius: 5px;
     text-align: center;
     padding: 0px 25px;
+    height: 95px;
 }
 
 .main-wrapper>.left-column >.bottom >.right-button:hover{
     background-color: #232424;
-    color: white;
 }
 
    /* RIGHT COLUMN ------------------------------- */
@@ -118,6 +119,22 @@ body {
 }
 
 /* CATEGORIES SECTION --------------------------------- */
+
+.categories-wrapper>.category>.categ{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    color: white;
+    text-decoration: none
+}
+
+.categories-wrapper>.category>.categ:visited {
+    color: white;
+    text-decoration: none
+  }
+
+.categories-wrapper>.category>.categ:hover {
+    color: black;
+  }
 
 .categories-wrapper {
     margin-top: 2px;
