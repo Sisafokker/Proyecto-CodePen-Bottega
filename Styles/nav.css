@@ -1,0 +1,143 @@
+/* NAV BAR SECTION --------------------------------- */
+
+.navigation-wrapper {
+    height: 100px;
+    background-color: black;
+    color: white;
+
+    display: grid;
+    grid-template-columns: 0.65fr 0.9fr 0.6fr 1.35fr;
+    gap: 30px;
+    
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 2px 5px 2px;
+}
+
+.navigation-wrapper >.left-column >.codePen-logo{
+    display: flex;
+    justify-content: center;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+.navigation-wrapper >.left-column > .codePen-logo img {
+    width: 80%;
+    align-content: center;
+}
+
+.navigation-wrapper >.centerLeft-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+
+.navigation-wrapper >.centerLeft-column >.topRow{
+    height: 45px;
+    color: yellow;
+    margin-top: -20px;
+    margin-bottom: -7px;
+}
+
+.navigation-wrapper >.centerLeft-column >.lowerRow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0px;
+    color: white;
+    font-size: 26px;
+}
+
+a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    color: white;
+    text-decoration: none
+}
+
+a:visited {
+    color: white;
+    text-decoration: none
+  }
+
+a:hover {
+    color: grey;
+    text-decoration: none
+  }
+
+.navigation-wrapper >.centerRight-column >.uniqueRow{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    color: grey;
+    font-size: 26px;
+}
+
+.navigation-wrapper >.centerRight-column >.uniqueRow p{
+    margin-bottom: auto;
+}
+
+.chevron::before {
+	border-style: solid;
+	border-width: 0.17em 0.17em 0 0;
+	content: '';
+	display: inline-block;
+	height: 0.40em;
+	left: 0.85em;
+	position: relative;
+	width: 0.40em;
+    margin-bottom: 3px;
+}
+
+.chevron.bottom1:before {
+	transform: rotate(135deg);
+}
+
+.chevron.bottom2:before {
+	transform: rotate(135deg);
+    color: rgb(25, 197, 25);
+    width: 0.60em;
+	height: 0.60em;
+    left: 0.45em;
+}
+
+.navigation-wrapper >.right-column{
+    display: inline-flex;
+    /*display: flex;*/
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    margin-right: 10px;
+}
+
+.navigation-wrapper >.right-column >.button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #36383F;
+    border-radius: 5px;
+    height: 70px;
+    width: -webkit-fill-available;  /* ASK ---- How to I take full control over width without entering #px */
+
+}
+
+.navigation-wrapper >.right-column >.button:hover{
+    background-color: #464646;
+}
+
+.navigation-wrapper >.right-column >.button a{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.fa-sharp.fa-solid.fa-magnifying-glass.fa-2x{
+    color:grey;
+    align-self: center;
+    margin-left: 17px;
+    margin-right: 17px;
+}
+
+.fa-sharp.fa-solid.fa-magnifying-glass.fa-2x:hover{
+    color:rgb(207, 203, 203);
+}

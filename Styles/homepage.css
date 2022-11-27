@@ -1,0 +1,161 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    background-image: linear-gradient(to right, #393C44,#31343C,#0A0B0D);  /*    NOT EXACTLY THE SAME  GRADIENT  */
+    background-color: #11122b;
+    font-size: 20px;
+}
+
+
+/* MAIN SECTION --------------------------------- */
+.main-wrapper {
+    /* Flex */
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    padding-top: 50px;
+}
+   /* LEFT COLUMN ------------------------------- */
+.main-wrapper>.left-column {
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: -10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    font-size: 42px;
+}
+
+.main-wrapper>.left-column>.top {
+    font-size: 46px;
+    color: rgb(209, 207, 207);
+    height: 200px;
+    letter-spacing: 0.08rem;
+}
+
+.main-wrapper>.left-column >.center{
+    color: rgb(160, 156, 156);
+    margin-bottom: -20px;
+    font-weight: 300;
+    font-size: 40px;
+    margin-top: 10px;
+    line-height: 1.45;
+}
+.main-wrapper>.left-column >.center p{
+    font-weight: 500;
+}
+
+.main-wrapper>.left-column >.bottom{
+    display: flex;
+    justify-content: left;
+    margin-top: 25px;
+    align-items: center;
+}
+
+.main-wrapper>.left-column >.bottom >.left-button{
+    vertical-align: middle;
+    background-color: #4BCE79;
+    color: black;
+    border-radius: 5px;
+    align-items: center;
+    padding: 0px 35px;
+    margin-right: 25px;
+}
+
+.main-wrapper>.left-column >.bottom >.left-button:hover{
+    background-color: #30854d;
+    color: white;
+}
+
+.main-wrapper>.left-column >.bottom >.left-button p{
+    font-family: 'Lato', sans-serif;
+    line-height: 20px;  /* not sure..............How do I make the button a big less tall............................... */
+    vertical-align: middle;
+}
+
+.main-wrapper>.left-column >.bottom >.right-button p{
+    font-family: 'Lato', sans-serif;
+    line-height: 20px;  /* not sure............................................. */
+    vertical-align: middle;
+}
+
+
+.main-wrapper>.left-column >.bottom >.right-button{
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #111111;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 0px 25px;
+}
+
+.main-wrapper>.left-column >.bottom >.right-button:hover{
+    background-color: #232424;
+    color: white;
+}
+
+   /* RIGHT COLUMN ------------------------------- */
+
+.main-wrapper > .right-column {
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+}
+
+.main-wrapper > .right-column > .text-wrapper{
+    display: flex;
+    padding-left: 10px;
+    padding-bottom: -5px;
+    color: white;
+    font-size: 24px;
+ }
+
+.main-wrapper > .right-column > .project-image img{
+    width: 100%;
+    margin-top: -12px;
+}
+
+/* CATEGORIES SECTION --------------------------------- */
+
+.categories-wrapper {
+    margin-top: 2px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #36383F;
+    border-top: 1.5px solid #676767;
+    border-bottom: 1.5px solid #676767;
+    color: white;
+    line-height: 1.25rem;
+}
+
+.categories-wrapper>.category {
+    display: flex;
+    justify-content: center;
+    border-left: 1.5px solid #676767;
+    border-right: 1.5px solid #676767;
+    font-size: 1.5rem;
+    align-items: center; 
+    height: 80px;
+}
+
+.categories-wrapper>.category:hover {
+    color: black;
+}
+
+.categories-wrapper>.category a{
+    font-family: 'Lato', sans-serif; 
+}
+
+.categories-wrapper>.category a>.higherFont{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: bolder; 
+    font-size: 30px;
+}
+
+
+/* FOOTER SECTION --------------------------------- */
+.footer-wrapper {
+    background-color: black;
+}
