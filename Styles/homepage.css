@@ -1,4 +1,5 @@
-
+/* HOMEPAGE CSS SECTION */
+/* Includes everything except for Navigation Bar */
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0px;
@@ -7,7 +8,7 @@ body {
     font-size: 20px;
 }
 
-a{
+a{ /* Generic <a href> styling */
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
     color: white;
@@ -22,7 +23,7 @@ a{
     grid-template-columns: 1.3fr 1fr;
     padding-top: 50px;
 }
-   /* LEFT COLUMN ------------------------------- */
+   /* Main Section: LEFT COLUMN  */
 .main-wrapper>.left-column {
     margin-left: 70px;
     margin-right: 70px;
@@ -80,7 +81,6 @@ a{
     color: black;
 }
 
-
 .main-wrapper>.left-column >.bottom >.right-button{
     display: flex;
     justify-content: left;
@@ -97,8 +97,7 @@ a{
     background-color: #232424;
 }
 
-   /* RIGHT COLUMN ------------------------------- */
-
+   /* Main Section: RIGHT COLUMN  */
 .main-wrapper > .right-column {
     display: flex;
     flex-direction: column;
@@ -118,7 +117,8 @@ a{
     margin-top: -12px;
 }
 
-/* CATEGORIES SECTION --------------------------------- */
+
+/* CATEGORIES SECTION */
 
 .categories-wrapper>.category>.categ{
     font-family: 'Roboto', sans-serif;
@@ -172,7 +172,8 @@ a{
 }
 
 
-/* FOOTER SECTION --------------------------------- */
+/* FOOTER (EMPTY) SECTION --------------------------------- */
 .footer-wrapper {
-    background-color: black;
+    background-color: #191A1D;
+    height: 120px;
 }

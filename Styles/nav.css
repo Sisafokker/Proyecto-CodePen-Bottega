@@ -1,12 +1,12 @@
-/* NAV BAR SECTION --------------------------------- */
-
+/* NAVIGATION WRAPPER CSS SECTION --------------------------------- */
+/* /Contains entire top navigation bar */
 .navigation-wrapper {
     height: 100px;
     background-color: black;
     color: white;
 
     display: grid;
-    grid-template-columns: 0.65fr 0.9fr 0.6fr 1.35fr;
+    grid-template-columns: 0.65fr 0.9fr 0.6fr 1.35fr; /* 4 Columns */
     gap: 30px;
     
     justify-content: space-around;
@@ -14,6 +14,7 @@
     padding: 5px 2px 5px 2px;
 }
 
+/* Left Column --- */
 .navigation-wrapper >.left-column >.codePen-logo{
     display: flex;
     justify-content: center;
@@ -26,13 +27,14 @@
     align-content: center;
 }
 
+
+/* Center-Left Column --- */
 .navigation-wrapper >.centerLeft-column{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     gap: 10px;
 }
-
 
 .navigation-wrapper >.centerLeft-column >.topRow{
     height: 45px;
@@ -50,23 +52,25 @@
     font-size: 26px;
 }
 
-.navBut{
+.mainNavButtons{
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
     color: white;
     text-decoration: none
 }
 
-.navBut:visited {
+.mainNavButtons:visited {
     color: white;
     text-decoration: none
   }
 
-.navBut:hover {
+.mainNavButtons:hover {
     color: grey;
     text-decoration: none
   }
 
+
+  /* Center-Right Column --- */
 .navigation-wrapper >.centerRight-column >.uniqueRow{
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
@@ -102,6 +106,8 @@
     left: 0.45em;
 }
 
+
+/* Right Column ---  */
 .navigation-wrapper >.right-column{
     display: inline-flex;
     /*display: flex;*/
@@ -119,7 +125,6 @@
     border-radius: 5px;
     height: 70px;
     width: -webkit-fill-available;  /* ASK ---- How to I take full control over width without entering #px */
-
 }
 
 .navigation-wrapper >.right-column >.button:hover{
@@ -142,19 +147,16 @@
     color:rgb(207, 203, 203);
 }
 
-.topBut{
+.right-nav-Button{
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
     color: white;
-    text-decoration: none
 }
 
-.topBut:visited {
+.right-nav-Button:visited {
     color: white;
-    text-decoration: none
   }
 
-.topBut:hover {
+.right-nav-Button:hover {
     color: black;
-    text-decoration: none
   }
