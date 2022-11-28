@@ -6,7 +6,8 @@
     color: white;
 
     display: grid;
-    grid-template-columns: 0.65fr 0.9fr 0.6fr 1.30fr; /* 4 Columns */
+    /* 4 Navigation Columns (left-column, centerLeft-column, centerRight-column, right-Column)*/
+    grid-template-columns: 0.65fr 0.9fr 0.6fr 1.30fr; 
     gap: 30px;
     
     justify-content: space-around;
@@ -14,7 +15,7 @@
     padding: 5px 2px 5px 2px;
 }
 
-/* Left Column --- */
+/* Nav Left Column --- */
 .navigation-wrapper >.left-column >.codePen-logo{
     display: flex;
     justify-content: center;
@@ -27,7 +28,7 @@
     align-content: center;
 }
 
-/* Center-Left Column --- */
+/* Nav Center-Left Column --- */
 .navigation-wrapper >.centerLeft-column{
     display: flex;
     flex-direction: column;
@@ -69,7 +70,7 @@
   }
 
 
-  /* Center-Right Column --- */
+  /* Nav Center-Right Column --- */
 .navigation-wrapper >.centerRight-column >.uniqueRow{
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
@@ -100,7 +101,7 @@
 }
 
 
-/* Right Column ---  */
+/* Nav Right Column ---  */
 .navigation-wrapper >.right-column{
     display: inline-flex;
     /*display: flex;*/
@@ -130,7 +131,7 @@
     margin-right: 32px;
 }
 
-.navigation-wrapper >.right-column >.button a.navButton>.fa-sharp.fa-solid.fa-chevron-down{ /*  Icon - Green Chevron */
+.navigation-wrapper >.right-column >.button a.navButton >.fa-sharp.fa-solid.fa-chevron-down{ /*  Icon - Green Chevron */
     color: #4BCE79;
     font-size: 26px;
     font-weight: bold;
