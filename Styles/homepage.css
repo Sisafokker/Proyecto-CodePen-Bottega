@@ -3,7 +3,8 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0px;
-    background-image: linear-gradient(to right, #393C44,#31343C,#0A0B0D);  /*    NOT EXACTLY THE SAME  GRADIENT  */
+    background-image: linear-gradient(to left, #0A0B0D,#0A0B0D,#393C44,#393C44,#2f3035);  /*    NOT EXACTLY THE SAME  GRADIENT  */
+    /* background-image: linear-gradient(to right, #393C44,#31343C,#0A0B0D);      NOT EXACTLY THE SAME  GRADIENT  */
     background-color: #11122b;
     font-size: 20px;
 }
@@ -20,8 +21,8 @@ a{ /* Generic <a href> styling */
     /* Flex */
     /* display: flex; */
     display: grid;
-    grid-template-columns: 1.3fr 1fr;
-    padding-top: 50px;
+    grid-template-columns: 1.3fr 0.98fr;
+    padding-top: 46px;
 }
    /* Main Section: LEFT COLUMN  */
 .main-wrapper>.left-column {
@@ -106,7 +107,7 @@ a{ /* Generic <a href> styling */
 
 .main-wrapper > .right-column > .text-wrapper{
     display: flex;
-    padding-left: 10px;
+    padding-left: 15px;
     padding-bottom: -5px;
     color: white;
     font-size: 24px;
