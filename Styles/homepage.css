@@ -15,7 +15,7 @@ a{ /* Generic <a href> styling */
     text-decoration: none
 }
 
-/* MAIN WRAPPER SECTION --------------------------------- */
+/* MAIN WRAPPER SECTION ------------------------------------------------------------------------ */
 .main-wrapper {
     display: grid;
     /* 2 Columns (left-column, right-Column)*/
@@ -117,7 +117,7 @@ a{ /* Generic <a href> styling */
 }
 
 
-/* CATEGORIES WRAPPER SECTION */
+/* CATEGORIES WRAPPER SECTION ---------------------------------------------------------------------*/
 .categories-wrapper {
     margin-top: 2px;
     display: grid;
@@ -170,7 +170,7 @@ a{ /* Generic <a href> styling */
 }
 
 
-/* FOOTER WRAPPER (EMPTY) SECTION --------------------------------- */
+/* FOOTER WRAPPER (EMPTY) SECTION ------------------------------------------------------------------- */
 .footer-wrapper {
     background-color: #191A1D;
     height: 120px;
