@@ -15,7 +15,7 @@
     padding: 5px 2px 5px 2px;
 }
 
-/* Nav Left Column --- */
+/* Nav Left Column (co1)--- */
 .navigation-wrapper >.left-column >.codePen-logo{
     display: flex;
     justify-content: center;
@@ -28,7 +28,7 @@
     align-content: center;
 }
 
-/* Nav Center-Left Column --- */
+/* Nav Center-Left Column (col2)--- */
 .navigation-wrapper >.centerLeft-column{
     display: flex;
     flex-direction: column;
@@ -70,7 +70,7 @@
   }
 
 
-  /* Nav Center-Right Column --- */
+  /* Nav Center-Right Column (col3)--- */
 .navigation-wrapper >.centerRight-column >.uniqueRow{
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
@@ -101,7 +101,7 @@
 }
 
 
-/* Nav Right Column ---  */
+/* Nav Right Column (col4) ---  */
 .navigation-wrapper >.right-column{
     display: inline-flex;
     /*display: flex;*/
@@ -117,7 +117,6 @@
     background-color: #36383F;
     border-radius: 5px;
     height: 73px;
-   /* width: -webkit-fill-available;   ASK ---- How to I take full control over width without entering #px */
 }
 
 .navigation-wrapper >.right-column >.button:hover{
